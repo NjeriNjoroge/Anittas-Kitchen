@@ -1,98 +1,142 @@
-.glyphicon{
-  font-size: 50px;
-  }
+/*HEADER SECTION*/
 
-.container.landing{
+.glyphicon {
+  font-size: 50px;
+}
+
+.container.landing {
   background-image: url("img/landing.jpg");
-  width:1400px;
+  width: 1400px;
   height: 636px;
 }
 
-.glyphicon.glyphicon-menu-hamburger{
+.glyphicon.glyphicon-menu-hamburger {
   color: white;
 }
 
-.intro{
+.intro {
   text-align: center;
   font-family: 'Josefin Slab', serif;
   font-size: 3.5em;
   color: white;
-
 }
 
-.logo{
-  padding-left: 35%;
+.col {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
 }
 
-
-
-/*SUBSCRIBE SECTION*/
-.sign {
-background-image: url("img/subscribe.jpg");
-width: 1400px;
-height: 301px;
-text-align: center;
-color: white;
-font-size: 30px;
-padding-top: 70px;
+.happy {
+  background-color: #c2c6ce;
 }
-.btn.btn-default{ /* it will fill all other buttons*/
+
+.party {
   background-color: #f15a29;
 }
+
+.lunch {
+  opacity: 0.5;
+  height: 100%;
+}
+
+.container.menu {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 210px;
+}
+
+.row.menuwrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.row.menuwrapper img {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container.menu .row.menuwrapper .col-md-3 {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.logo {
+  padding-left: 35%;
+}
 /*END*/
+
+/*SUBSCRIBE SECTION*/
+
+.sign {
+  background-image: url("img/subscribe.jpg");
+  width: 1400px;
+  height: 301px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 70px;
+}
+
+.btn.btn-default {
+  /* it will fill all other buttons*/
+  background-color: #f15a29;
+}
+
+
+/*END*/
+
 
 /*FOOTER SECTION*/
-.row.pic{
-  background-color:#f15a29;
+
+.row.pic {
+  background-color: #f15a29;
   text-align: center;
-  color:white;
+  color: white;
 }
-.fa.fa-facebook{
+
+.fa.fa-facebook {
   background-image: url("img/facebook.png");
-  width:39px;
-  height:39px;
+  width: 39px;
+  height: 39px;
   font-size: 35px;
   color: #f15a29;
 }
-.fa.fa-twitter{
+
+.fa.fa-twitter {
   background-image: url("img/facebook.png");
-  width:39px;
-  height:39px;
+  width: 39px;
+  height: 39px;
   font-size: 35px;
   color: #f15a29;
 }
-.fa.fa-pinterest{
+
+.fa.fa-pinterest {
   background-image: url("img/facebook.png");
-  width:39px;
-  height:39px;
+  width: 39px;
+  height: 39px;
   font-size: 35px;
   color: #f15a29;
 }
+
+
 /*END*/
 
-.row.carosel{
+
+/*CAROUSEL*/
+
+.row.carosel {
   background-image: url("img/foodsBg.jpg");
-  width:1400px;
-  height:599px;
+  width: 1400px;
+  height: 599px;
   background-position: center;
   margin-top: 35%;
-}
-
-.happy{
-background-color: #c2c6ce;
-  font-size: 3em;
-  padding-top: 2%;
-  margin-right: -11%;
-}
-
-.party{
-background-color: #f15a29;
-  font-size: 3em;
-  padding-top: 2%;
-  margin-right: -11%;
-  color:white;
-}
-
-.lunch{
-  opacity: 0.5;
 }
