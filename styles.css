@@ -29,6 +29,27 @@
   justify-content: center;
   font-size: 2em;
 }
+/*IMAGES UNDER THE LOGO*/
+.col-md-3.breko{
+  background: url("img/breakfast.jpg");
+  text-align: center;
+  color:white;
+}
+
+.col-md-3.dinner{
+  background: url("img/dinner.jpg");
+  text-align: center;
+  color:white;
+}
+
+.lunch {
+  opacity: 0.5;
+  height: 100%;
+  background: url("img/lunch.jpg");
+  text-align: center;
+  color:white;
+}
+
 
 .happy {
   background-color: #c2c6ce;
@@ -36,12 +57,9 @@
 
 .party {
   background-color: #f15a29;
+  color:white;
 }
 
-.lunch {
-  opacity: 0.5;
-  height: 100%;
-}
 
 .container.menu {
   width: 100%;
